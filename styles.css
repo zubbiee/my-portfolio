@@ -214,14 +214,16 @@
         height: auto;
     }
     .icons{
-        width: 100%;
-        font-size: 5px;
+        width: 70%;
         display: flex;
         justify-content: space-between;
+        margin: 5px auto;
     }
     .icons a{
         display: flex;
         justify-content: space-between;
+        font-size: 10px;
+        padding: 2px;
     }
 }
 
@@ -371,6 +373,7 @@
     background-color: white;
     border-radius: 20px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+    height: auto;
 }
 
 .con-text{
@@ -378,7 +381,7 @@
 }
 @media(max-width:480px){
     .con{
-       grid-template-columns: auto;
+       grid-template-columns: auto auto;
        grid-column-gap: 5px;
     grid-row-gap: 10px;
     }
@@ -392,20 +395,29 @@
         margin-bottom: -40%;
     }
     .con h2{
-        font-size: 20px;
+        font-size: 15px;
     }
     .con p{
-        font-size: 15px;
+        font-size: 10px;
     }
     .image-con{
         padding: 5px;
         height: auto;
     }
-    .con-text{
-        margin-top: ;
-    }
+    
     .con>div>div{
         height: 50%;
+    }
+    .con>div{
+        border-radius: 5px;
+        height: auto;
+        box-shadow: non;
+    }
+    .con>div:nth-child(-n+2){
+        height: 150px;
+    }
+    .con>div:nth-child(3), .con>div:nth-child(4),.con>div:nth-child(5){
+        height: 200px;
     }
 }
 .contact-head{
