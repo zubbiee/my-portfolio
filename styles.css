@@ -5,12 +5,42 @@
     outline: 1px solid yello;
 }
 @media(max-width:480px){
-   
+  
 }
+p{
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+li{
+        font-family: "Playfair", serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+}
+h2{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  text-transform: capitalize;
+}
+h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  text-transform: capitalize;
+}
+
 .nav-main{
     position: sticky;
     top: 0%;
     background-color:#e1f6ff;
+    z-index: 1000;
 }
 .nav{
     height: 50px;
@@ -22,6 +52,11 @@
 }
 .nav h1{
     display: inline;
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+text-transform: capitalize;
+letter-spacing: 2px;
 }
 .nav a{
     text-decoration: none;
@@ -69,6 +104,11 @@
         top: 100%;
         right: 25px;
         font-size: 10px;
+        font-size: 15px;
+    }
+    .dropdown-content a li{
+       padding: 10px 0 10px 10px;
+       font-size: 10px;
     }
     .dropdown-content ul{
         background-color: white;
@@ -77,6 +117,9 @@
     .dropdown-content li{
         margin: 5px 0;
         list-style-type: none;
+    }
+    .dropdown .dropdown-content{
+       transition: .5s ease-in;
     }
     .dropdown:hover .dropdown-content{
         display: block;
@@ -185,6 +228,7 @@
     .about {
         height: 300px;
         flex-direction: column;
+        margin-bottom: 0;
     }
     .about h1{
         font-size: 20px;
@@ -222,8 +266,11 @@
     .icons a{
         display: flex;
         justify-content: space-between;
-        font-size: 10px;
+        font-size: 20px;
         padding: 2px;
+    }
+    .about-text{
+        
     }
 }
 
@@ -269,10 +316,14 @@
     }
     .skills>div>div{
         padding: 10px 15px;
+        background-color: ;
     }
     .skills>div{
         grid-template-columns: auto;
         grid-row-gap: 10px;
+    }
+    .skills{
+        
     }
 }
 .skills li::first-letter{
@@ -388,7 +439,8 @@
     .con a[target="_blank"]{
         padding: 2px;
         width: 90%;
-        border: 1px solid blue;
+        border: 1px solid teal;
+        color: teal;
         border-radius: 5px;
         margin: auto;
         font-size: 10px;
@@ -402,7 +454,6 @@
     }
     .image-con{
         padding: 5px;
-        height: auto;
     }
     
     .con>div>div{
@@ -410,15 +461,15 @@
     }
     .con>div{
         border-radius: 5px;
-        height: auto;
         box-shadow: non;
     }
     .con>div:nth-child(-n+2){
-        height: 150px;
-    }
-    .con>div:nth-child(3), .con>div:nth-child(4),.con>div:nth-child(5){
         height: 200px;
     }
+    .con>div:nth-child(3), .con>div:nth-child(4),.con>div:nth-child(5){
+        height: 300px;
+    }
+
 }
 .contact-head{
     text-align: center;
@@ -480,6 +531,23 @@ textarea{
     .contact-body textarea{
         width: 90%;
     }
+    .contact-body div:nth-child(1){
+        font-size: 13px;
+    }
+    .contact-body a{
+        text-decoration: none;
+        color: teal;
+    }
+    form button{
+        border: 1px solid teal;
+        background-color: white;
+        color: teal;
+        transition: .5s ease-in-out;
+    }
+    form button:hover{
+        background-color: teal;
+        color: white;
+    }
 }
 footer{
     background-color: black;
@@ -509,6 +577,6 @@ footer div:nth-child(2){
         color: white;
     }
     .ficons{
-        width: 100%;
+        width: 70%;
     }
 }
