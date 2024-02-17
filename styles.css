@@ -122,18 +122,18 @@ h3{
         display: none;
         position: absolute;
         top: 100%;
-        right: 35px;
+        right: 50px;
         font-size: 15px;
+        color: white;
     }
     .dropdown-content a li{
        padding: 10px 0 10px 10px;
        font-size: 15px;
+       color: white;
     }
-    .dropdown-content ul a li:nth-child(-n+3){
-        border-bottom: 1px solid grey;
-    }
+    
     .dropdown-content ul{
-        background-color: white;
+        background-color: teal;
         width: 50px;
     }
     .dropdown-content li{
@@ -188,7 +188,7 @@ h3{
         font-size: 15px;
     }
     .header {
-        height: 150px;
+        height: 200px;
         flex-direction: column;
         padding: 10px;
       /*  background-image: url(https://en.idei.club/uploads/posts/2023-06/thumbs/1687562567_en-idei-club-p-programming-languages-background-dizain-in-53.jpg);
