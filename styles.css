@@ -53,10 +53,11 @@ h3{
 .nav h1{
     display: inline;
     font-family: "Abril Fatface", serif;
-  font-weight: 400;
-  font-style: normal;
-text-transform: capitalize;
-letter-spacing: 2px;
+     font-weight: 400;
+     font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: teal;
 }
 .nav a{
     text-decoration: none;
@@ -69,6 +70,25 @@ letter-spacing: 2px;
     width: 20%;
     display: flex;
     justify-content: space-between;
+}
+.nav-links{
+    font-family: "Playfair", serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+    text-transform: capitalize;
+}
+.nav-links a{
+    padding: 5px;
+    transition: .3s ease-in-out;
+}
+
+.nav-links a:hover{
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
 }
 @media(min-width:481px){
     .nav div:nth-child(3){
@@ -102,13 +122,12 @@ letter-spacing: 2px;
         display: none;
         position: absolute;
         top: 100%;
-        right: 25px;
-        font-size: 10px;
+        right: 35px;
         font-size: 15px;
     }
     .dropdown-content a li{
        padding: 10px 0 10px 10px;
-       font-size: 10px;
+       font-size: 15px;
     }
     .dropdown-content ul a li:nth-child(-n+3){
         border-bottom: 1px solid grey;
@@ -172,6 +191,10 @@ letter-spacing: 2px;
         height: 150px;
         flex-direction: column;
         padding: 10px;
+      /*  background-image: url(https://en.idei.club/uploads/posts/2023-06/thumbs/1687562567_en-idei-club-p-programming-languages-background-dizain-in-53.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;*/
     }
     .header>div{
         width: 100%;
@@ -201,7 +224,9 @@ letter-spacing: 2px;
 .about-text p{
     margin: 5px 0;
 }
-
+.about-text{
+    width: 70%;
+}
 .about-image{
     height: 70%;
     background-color: white;
@@ -215,12 +240,21 @@ letter-spacing: 2px;
 }
 #about a{
     text-decoration: none;
-    color: blue;
+    color: teal;
     background-color: white;
     font-size: 20px;
     padding: 5px;
     border-radius:10px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+}
+.git-link{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: teal !important;
+    font-size: 13px !important;
+}
+.git-link:hover{
+    text-decoration: underline !important;
 }
 .icons{
     width: 40%;
@@ -272,8 +306,59 @@ letter-spacing: 2px;
         font-size: 20px;
         padding: 2px;
     }
-    .about-text{
-        
+}
+.education{
+    height: 300px;
+}
+.education h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+@media(max-width:480px){
+    .education{
+        height: 200px;
+        padding: 10px 5px;
+    }
+    .education h1{
+        font-size: 15px;
+    }
+}
+.certify{
+    height: 200px;
+    background-color: #e1f6ff;
+    padding: 20px 0;
+}
+.certify h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.certify p{
+    text-transform: capitalize;
+    border: 2px solid teal;
+    width: 10%;
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    transition: .3s;
+    letter-spacing: 1px;
+}
+.certify p:hover{
+    background-color: teal;
+    color: white;
+}
+@media(max-width:480px){
+    .certify h1{
+        font-size: 15px;
+    }
+    .certify p{
+        font-size: 13px;
+        width: 25%;
+        padding: 5px;
+        margin: 10px auto;
+        border: 1px solid teal;
+    }
+    .certify{
+        height: 100px;
     }
 }
 
@@ -286,6 +371,7 @@ letter-spacing: 2px;
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
+    text-transform: capitalize;
 }
 #skills h2::first-letter{
     text-transform: capitalize;
@@ -305,6 +391,7 @@ letter-spacing: 2px;
 }
 #skills li{
     margin: 5px 0;
+    text-transform: capitalize;
 }
 @media(max-width:480px){
     #skills h1{
@@ -315,11 +402,9 @@ letter-spacing: 2px;
     }
     #skills li{
         font-size: 10px;
-        margin-bottom: ;
     }
     #skills>div>div{
         padding: 10px 15px;
-        background-color: ;
     }
     #skills>div{
         grid-template-columns: auto;
@@ -352,6 +437,13 @@ letter-spacing: 2px;
     background-color: white;
     transition: .3s ease-in;
     text-transform: uppercase;
+
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 .project-btn button:hover{
     background-color: blue;
@@ -366,6 +458,7 @@ letter-spacing: 2px;
         padding: 3% 20%;
         background-color: #e1f6ff;
 }
+
 @media(max-width:480px){
     #project-link{
       padding: 5px;
@@ -384,25 +477,65 @@ letter-spacing: 2px;
     grid-template-columns: auto auto;
     grid-column-gap: 20px;
     grid-row-gap: 30px;
+    
 }
-
+.con div:nth-child(6){
+    background-color: transparent;
+    grid-column: span 2;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+}
+#btn-con button{
+    height: 100%;
+    width: 25%;
+    background-color: transparent;
+    text-transform: capitalize;
+    border: 2px solid teal;
+    text-align: center;
+    transition: .3s;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+#btn-con button:hover{
+    color: white;
+    background-color: teal;
+}
+#hidden-project{
+    display: none;
+}
+@media(max-width:480px){
+    .con div:nth-child(6){
+        height: 30px;
+    }
+    #btn-con button{
+        padding: 0;
+        font-size: 13px;
+        border: 1px solid teal;
+        text-align: center;
+        width: 35%;
+    }
+}
 .con a[target="_blank"]{
     display: block;
-    color: blue;
+    color: teal;
     text-decoration: none;
     font-weight: normal;
-    border: 2px solid blue;
+    border: 2px solid teal;
     width: 30%;
     text-align: center;
     padding: 5px;
     border-radius: 10px;
     transition: .4s ease-in-out;
-    box-shadow: 2px 2px 4px rgba(0, 0, 255, 0.4);
+    box-shadow: 2px 2px 4px  rgba(0, 128, 128, 0.4);
     letter-spacing: 1px;
+    margin: 5% 0;
 }
 .con a[target="_blank"]:hover{
     color: white;
-    background-color: blue;
+    background-color: teal;
 }
 .con a{
     text-decoration: none;
@@ -425,11 +558,57 @@ letter-spacing: 2px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-    height: auto;
+    height: 400px;
+}
+.con p{
+    font-size: 95%;
 }
 
 .con-text{
-    padding: 10px 0;
+    padding: 10px 5px;
+}
+.feature{
+    height: 200px;
+    background-color: #e1f6ff;
+    padding: 20px 0;
+}
+.feature h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.wraphead{
+    white-space: nowrap;
+}
+.feature p{
+    text-transform: capitalize;
+    border: 2px solid teal;
+    width: 10%;
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    transition: .3s;
+    letter-spacing: 1px;
+}
+.paratext{
+    word-spacing: -0.1em;
+}
+.feature p:hover{
+    background-color: teal;
+    color: white;
+}
+@media(max-width:480px){
+    .feature h1{
+        font-size: 15px;
+    }
+    .feature p{
+        font-size: 13px;
+        width: 30%;
+        border: 1px solid teal;
+        padding: 4px;
+    }
+    .feature{
+        height: 150px;
+    }
 }
 @media(max-width:480px){
     .con{
@@ -472,13 +651,17 @@ letter-spacing: 2px;
     .con>div:nth-child(3), .con>div:nth-child(4),.con>div:nth-child(5){
         height: 300px;
     }
-
+    .paratext{
+        word-spacing: normal;
+    }
 }
 .contact-head{
     text-align: center;
 }
 .contact-body a{
     display: block;
+    text-decoration: none;
+    color: teal;
 }
 .contact-body{
     display: flex;
@@ -487,9 +670,11 @@ letter-spacing: 2px;
     margin: 30px auto 30px auto;
 }
 textarea{
-    width: 300px;
+    width: 350px;
     height: 100px;
     resize: none;
+    border: 1px solid teal;
+    outline: none;
 }
 .contact-body button{
     display: block;
@@ -498,14 +683,38 @@ textarea{
     margin-bottom: 10px;
 }
 .contact-body input{
-    width: 300px;
+    width: 350px;
     height: 30px;
+    border: 1px solid teal;
+    outline: none;
 }
 .contact-body a{
     margin-bottom: 10px;
 }
-.contact{
+.contact-head h2{
+    margin: 10px 0;
+}
+.location{
+    display: flex;
+    column-gap: 10px;
+}
+#contact{
     padding: 20px 0;
+}
+#contact h4{
+    text-transform: capitalize;
+}
+form button{
+    border: 1px solid teal;
+    background-color: white;
+    color: teal;
+    transition: .5s ease-in-out;
+    padding: 10px;
+    border-radius: 5px;
+}
+form button:hover{
+    background-color: teal;
+    color: white;
 }
 @media(max-width:480px){
     .contact-head h2{
@@ -527,7 +736,9 @@ textarea{
     .contact-body>div{
         width: 100%;
     }
- 
+    .location{
+        justify-content: center;
+    }
     .contact-body button{
         margin: 15px auto;
         width: 90%;
