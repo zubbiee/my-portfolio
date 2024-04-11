@@ -143,13 +143,14 @@ h3 {
     padding: 10px 0 10px 10px;
     font-size: 15px;
     color: white;
-
+  }
+  .dropdown-content ul a li {
     text-transform: capitalize;
   }
-
   .dropdown-content ul {
     background-color: teal;
     width: 7rem;
+    text-transform: capitalize;
   }
   .dropdown-content li {
     margin: 5px 0;
