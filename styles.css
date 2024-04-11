@@ -104,12 +104,13 @@ h3 {
   background-color: teal;
   color: white;
 }
-@media (min-width: 481px) {
+@media (min-width: 500px) {
   .nav div:nth-child(3) {
     display: none;
   }
   .dropdown {
     display: none;
+    text-transform: capitalize;
   }
 }
 @media (max-width: 500px) {
