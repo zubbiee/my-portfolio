@@ -21,7 +21,7 @@ li,
 button {
   font-family: inter !important;
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 }
 /* p {
   font-family: "Playfair", serif;
@@ -112,7 +112,7 @@ h3 {
     display: none;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .nav h1 {
     font-size: 15px;
   }
@@ -206,7 +206,7 @@ p::first-letter {
 .header-text p {
   font-size: 1.6rem;
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .header h1 {
     font-size: 20px;
   }
@@ -301,7 +301,7 @@ p::first-letter {
 /* .icons a i {
   font-size: 1.6rem;
 } */
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   #about {
     height: 30rem;
     flex-direction: column;
@@ -389,7 +389,7 @@ p::first-letter {
   overflow: hidden;
   height: 100%;
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .school {
     flex-direction: column;
     height: 100%;
@@ -415,9 +415,9 @@ p::first-letter {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .education {
-    height: 500px;
+    height: auto;
     padding: 10px 5px;
   }
   .education h1 {
@@ -449,19 +449,20 @@ p::first-letter {
   background-color: teal;
   color: white;
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .certify h1 {
     font-size: 15px;
   }
   .certify p {
     font-size: 13px;
-    width: 25%;
+    width: 30%;
     padding: 5px;
     margin: 10px auto;
     border: 1px solid teal;
+    text-align: center;
   }
   .certify {
-    height: 100px;
+    height: auto;
     /* margin-top: 300px;*/
   }
 }
@@ -501,12 +502,12 @@ p::first-letter {
   font-size: 1.6rem;
   text-transform: capitalize;
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   #skills h1 {
-    font-size: 20px;
+    font-size: 2rem;
   }
-  #skills h2 {
-    font-size: 15px;
+  #skills > div > div h2 {
+    font-size: 1rem;
   }
   #skills li {
     font-size: 10px;
@@ -568,7 +569,7 @@ p::first-letter {
   background-color: #e1f6ff;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   #project-link {
     padding: 5px;
   }
@@ -618,7 +619,7 @@ p::first-letter {
   font-size: 2.5rem;
   text-transform: capitalize;
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .con div:nth-child(6) {
     height: 30px;
   }
@@ -774,7 +775,7 @@ p::first-letter {
   background-color: teal;
   color: white;
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .feature h1 {
     font-size: 15px;
   }
@@ -806,7 +807,7 @@ p::first-letter {
     margin-bottom: -40%;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .con {
     grid-template-columns: auto auto;
     grid-column-gap: 5px;
@@ -824,11 +825,20 @@ p::first-letter {
     font-size: 10px;
     margin-bottom: -40%;
   }
+  .con-text a {
+    font-size: 1.2rem;
+  }
+  /* .contact-body p,
+  i,
+  a {
+    font-size: 1.2rem;
+  } */
   .con h2 {
-    font-size: 15px;
+    font-size: 1.2rem;
+    white-space: wrap;
   }
   .con p {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .image-con {
     padding: 5px;
@@ -847,7 +857,7 @@ p::first-letter {
   .con > div:nth-child(3),
   .con > div:nth-child(4),
   .con > div:nth-child(5) {
-    height: 300px;
+    height: 30rem;
   }
   .paratext {
     word-spacing: normal;
@@ -935,7 +945,7 @@ form button:hover {
 form input::placeholder {
   text-transform: capitalize;
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .contact-head h2 {
     font-size: 25px;
   }
@@ -1003,7 +1013,7 @@ footer div:nth-child(2) {
 .ficons a {
   color: white;
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   footer h2 {
     font-size: 10px;
   }
