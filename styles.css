@@ -778,21 +778,32 @@ p::first-letter {
   .feature h1 {
     font-size: 15px;
   }
-  .feature p {
+  /* .feature p {
     font-size: 13px;
     width: 30%;
     border: 1px solid teal;
     padding: 4px;
-  }
+  } */
   .feature {
-    height: 150px;
+    height: auto;
   }
   .cond {
-    margin: 5%;
-    width: 100%;
+    margin: auto;
+    width: 80%;
   }
   .cond img {
     width: 100%;
+  }
+  .cond a[target="_blank"] {
+    padding: 2px;
+    width: 90%;
+    border: 1px solid teal;
+    box-shadow: 2px 2px 4px rgba(0, 128, 128, 0.4);
+    color: teal;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 10px;
+    margin-bottom: -40%;
   }
 }
 @media (max-width: 480px) {
