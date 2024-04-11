@@ -806,6 +806,15 @@ p::first-letter {
     font-size: 10px;
     margin-bottom: -40%;
   }
+  /* .cond h2 {
+    font-size: 1.3rem;
+  }
+  .cond p {
+    font-size: 1rem;
+  }
+  .cond>div{
+    height: auto;
+  } */
 }
 @media (max-width: 500px) {
   .con {
@@ -852,13 +861,19 @@ p::first-letter {
     box-shadow: non;
   }
   .con > div:nth-child(-n + 2) {
-    height: 200px;
+    height: 20rem;
   }
   .con > div:nth-child(3),
   .con > div:nth-child(4),
   .con > div:nth-child(5) {
     height: 30rem;
   }
+  /* .image-con.hide {
+    height: 50%;
+  } */
+  /* .image-con.hide img {
+    height: 100%;
+  } */
   .paratext {
     word-spacing: normal;
   }
