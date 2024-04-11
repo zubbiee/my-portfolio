@@ -686,6 +686,7 @@ p::first-letter {
   background-color: #e1f6ff;
   padding: 20px 0;
 }
+
 .feature h1 {
   text-align: center;
   text-transform: capitalize;
@@ -785,6 +786,13 @@ p::first-letter {
   }
   .feature {
     height: 150px;
+  }
+  .cond {
+    margin: 5%;
+    width: 100%;
+  }
+  .cond img {
+    width: 100%;
   }
 }
 @media (max-width: 480px) {
