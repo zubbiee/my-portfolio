@@ -33,6 +33,21 @@ html {
 /* .nav div:nth-child(2) {
   width: 15%;
 } */
-.nav {
+/* .nav {
   width: 80%;
+} */
+/*  */
+/* .nav {
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto;
+}
+.nav-links {
+  flex-direction: column;
+} */
+.nav-links a {
+  padding: 0.2rem;
+}
+.nav div:nth-child(2) {
+  width: 40%;
 }
