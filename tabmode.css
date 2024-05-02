@@ -1,0 +1,38 @@
+/* * {
+  outline: 1px solid red;
+} */
+html {
+  font-size: 50%;
+}
+.header-text h1 {
+  white-space: wrap;
+}
+/* .about-image {
+  height: 100%;
+} */
+#about {
+  flex-direction: column;
+  height: auto;
+}
+.about-image {
+  width: 100%;
+  height: 300px;
+}
+.certify p {
+  width: 50%;
+}
+#project-link {
+  padding: 3% 0.3%;
+}
+.con {
+  margin: 3%;
+}
+.cond {
+  width: 50%;
+}
+/* .nav div:nth-child(2) {
+  width: 15%;
+} */
+.nav {
+  width: 80%;
+}
