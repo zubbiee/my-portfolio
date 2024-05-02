@@ -21,7 +21,7 @@ li,
 button {
   font-family: inter !important;
 }
-@media (max-width: 500px) {
+@media (max-width: 750px) {
 }
 /* p {
   font-family: "Playfair", serif;
@@ -104,7 +104,7 @@ h3 {
   background-color: teal;
   color: white;
 }
-@media (min-width: 500px) {
+@media (min-width: 750px) {
   .nav div:nth-child(3) {
     display: none;
   }
@@ -112,7 +112,7 @@ h3 {
     display: none;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .nav h1 {
     font-size: 15px;
   }
@@ -211,7 +211,7 @@ p::first-letter {
 .header-text p {
   font-size: 1.6rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .header h1 {
     font-size: 20px;
     /* color: black; */
@@ -310,7 +310,7 @@ p::first-letter {
 /* .icons a i {
   font-size: 1.6rem;
 } */
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   #about {
     height: 30rem;
     flex-direction: column;
@@ -398,7 +398,7 @@ p::first-letter {
   overflow: hidden;
   height: 100%;
 }
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .school {
     flex-direction: column;
     height: 100%;
@@ -424,7 +424,7 @@ p::first-letter {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .education {
     height: auto;
     padding: 10px 5px;
@@ -458,7 +458,7 @@ p::first-letter {
   background-color: teal;
   color: white;
 }
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .certify h1 {
     font-size: 15px;
   }
@@ -511,7 +511,7 @@ p::first-letter {
   font-size: 1.6rem;
   text-transform: capitalize;
 }
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   #skills h1 {
     font-size: 2rem;
   }
@@ -578,7 +578,7 @@ p::first-letter {
   background-color: #e1f6ff;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   #project-link {
     padding: 5px;
   }
@@ -628,7 +628,7 @@ p::first-letter {
   font-size: 2.5rem;
   text-transform: capitalize;
 }
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .con div:nth-child(6) {
     height: 30px;
   }
@@ -784,7 +784,7 @@ p::first-letter {
   background-color: teal;
   color: white;
 }
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .feature h1 {
     font-size: 15px;
   }
@@ -825,7 +825,7 @@ p::first-letter {
     height: auto;
   } */
 }
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .con {
     grid-template-columns: auto auto;
     grid-column-gap: 5px;
@@ -969,7 +969,7 @@ form button:hover {
 form input::placeholder {
   text-transform: capitalize;
 }
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .contact-head h2 {
     font-size: 25px;
   }
@@ -1037,7 +1037,7 @@ footer div:nth-child(2) {
 .ficons a {
   color: white;
 }
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   footer h2 {
     font-size: 10px;
   }
