@@ -27,9 +27,10 @@ html {
 .con {
   margin: 3%;
 }
-/* .cond {
+.cond {
   width: 50%;
-} */
+  margin: auto;
+}
 /* .nav div:nth-child(2) {
   width: 15%;
 } */

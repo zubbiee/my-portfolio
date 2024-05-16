@@ -21,8 +21,6 @@ li,
 button {
   font-family: inter !important;
 }
-@media (max-width: 750px) {
-}
 /* p {
   font-family: "Playfair", serif;
   font-optical-sizing: auto;
@@ -112,58 +110,6 @@ h3 {
     display: none;
   }
 }
-@media (max-width: 750px) {
-  .nav h1 {
-    font-size: 15px;
-  }
-  .nav div:nth-child(2) {
-    /*font-size: 5px;
-        width: 40%;*/
-    display: none;
-  }
-  .nav-main {
-    width: 100%;
-  }
-  .nav {
-    height: 25px;
-    padding: 20px 0;
-  }
-  .dropdown {
-    position: relative;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%;
-    right: 60px;
-    font-size: 15px;
-    color: white;
-  }
-  .dropdown-content a li {
-    padding: 10px 0 10px 10px;
-    font-size: 15px;
-    color: white;
-  }
-  .dropdown-content ul a li {
-    text-transform: capitalize;
-  }
-  .dropdown-content ul {
-    background-color: teal;
-    width: 10rem;
-    text-transform: capitalize;
-  }
-  .dropdown-content li {
-    margin: 5px 0;
-    text-align: center;
-    list-style-type: none;
-  }
-  .dropdown .dropdown-content {
-    transition: 0.5s ease-in;
-  }
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-}
 .header {
   display: flex;
   justify-content: space-around;
@@ -188,18 +134,7 @@ h3 {
 p::first-letter {
   text-transform: capitalize;
 }
-.header-image {
-  height: 70%;
-  width: 40% !important;
-  border-radius: 50%;
-}
 
-.header img {
-  height: 100%;
-  width: 100%;
-  border-radius: 100%;
-  object-fit: contain;
-}
 .header-text h3 {
   font-size: 2.5rem;
 }
@@ -211,37 +146,23 @@ p::first-letter {
 .header-text p {
   font-size: 1.6rem;
 }
-@media (max-width: 750px) {
-  .header h1 {
-    font-size: 20px;
-    /* color: black; */
-    color: white;
-  }
-  .header h3,
-  .header p {
-    font-size: 15px;
-    color: white;
-  }
-  .header {
-    height: 300px;
-    flex-direction: column;
-    padding: 10px;
-    background-color: rgba(0, 0, 128, 0.7);
-    /*  background-image: url(https://en.idei.club/uploads/posts/2023-06/thumbs/1687562567_en-idei-club-p-programming-languages-background-dizain-in-53.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;*/
-  }
-  .header > div {
-    width: 100%;
-  }
-  .header-image {
-    display: none;
-  }
-  .header {
-    /* background-color: white; */
-    box-shadow: 0 0 0;
-  }
+.header h1 {
+  font-size: 20px;
+  /* color: black; */
+  color: white;
+}
+
+.header-image {
+  height: 70%;
+  width: 40% !important;
+  border-radius: 50%;
+}
+
+.header img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  object-fit: contain;
 }
 #about {
   margin: 1.5rem 0 1.5rem 0;
@@ -310,52 +231,7 @@ p::first-letter {
 /* .icons a i {
   font-size: 1.6rem;
 } */
-@media (max-width: 750px) {
-  #about {
-    height: 30rem;
-    flex-direction: column;
-    margin-bottom: 0;
-  }
-  #about h1 {
-    font-size: 20px;
-  }
-  #about h2,
-  #about h3 {
-    font-size: 15px;
-  }
-  #about p {
-    font-size: 13px;
-  }
-  .about-image {
-    width: 100%;
-    height: 300px;
-  }
-  .about-image img {
-    object-fit: contain;
-    height: 100%;
-    width: 100%;
-  }
-  #about > div {
-    width: 100%;
-    padding: 5px;
-  }
-  #about {
-    padding: 10px;
-    height: auto;
-  }
-  .icons {
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    margin: 5px auto;
-  }
-  .icons a {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    padding: 2px;
-  }
-}
+
 .education {
   height: 40rem;
 }
@@ -398,41 +274,7 @@ p::first-letter {
   overflow: hidden;
   height: 100%;
 }
-@media (max-width: 750px) {
-  .school {
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-evenly;
-    margin: 0;
-  }
-  .school > div:nth-child(1) {
-    display: none;
-  }
-  .school h3 {
-    font-size: 14px;
-  }
-  .school p {
-    font-size: 13px;
-  }
-  .school > div {
-    width: 100%;
-    height: 20%;
-  }
 
-  .school > div:not(:first-child) {
-    padding: 2% 10px;
-  }
-}
-
-@media (max-width: 750px) {
-  .education {
-    height: auto;
-    padding: 10px 5px;
-  }
-  .education h1 {
-    font-size: 15px;
-  }
-}
 .certify {
   height: 20rem;
   background-color: #e1f6ff;
@@ -471,23 +313,6 @@ p::first-letter {
   background-color: teal;
   color: white;
 }
-@media (max-width: 750px) {
-  .certify h1 {
-    font-size: 15px;
-  }
-  .certify p {
-    font-size: 13px;
-    width: 30%;
-    padding: 5px;
-    margin: 10px auto;
-    border: 1px solid teal;
-    text-align: center;
-  }
-  .certify {
-    height: auto;
-    /* margin-top: 300px;*/
-  }
-}
 
 #skills {
   padding: 3% 10%;
@@ -524,24 +349,7 @@ p::first-letter {
   font-size: 1.6rem;
   text-transform: capitalize;
 }
-@media (max-width: 750px) {
-  #skills h1 {
-    font-size: 2rem;
-  }
-  #skills > div > div h2 {
-    font-size: 1rem;
-  }
-  #skills li {
-    font-size: 10px;
-  }
-  #skills > div > div {
-    padding: 10px 15px;
-  }
-  #skills > div {
-    grid-template-columns: auto;
-    grid-row-gap: 10px;
-  }
-}
+
 .skills li::first-letter {
   text-transform: capitalize;
 }
@@ -582,35 +390,18 @@ p::first-letter {
   color: white;
 }
 #project-link {
-  /* margin: 5% 10%;
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-column-gap: 20px;
-        grid-row-gap: 30px;*/
-  padding: 3% 20%;
+  padding: 3% 10%;
   background-color: #e1f6ff;
 }
 
-@media (max-width: 750px) {
-  #project-link {
-    padding: 5px;
-  }
-  #project-link h1 {
-    font-size: 15px;
-  }
-  .project-btn button {
-    padding: 5px;
-    font-size: 10px;
-  }
-}
 .con {
-  /* margin: 5% 10%;
+  margin: 5% 10%;
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 2rem;
-  grid-row-gap: 3rem; */
-  display: flex;
-  flex-direction: column;
+  grid-row-gap: 3rem;
+  /* display: flex;
+  flex-direction: column; */
 }
 .con div:nth-child(6) {
   background-color: transparent;
@@ -643,18 +434,7 @@ p::first-letter {
   font-size: 2.5rem;
   text-transform: capitalize;
 }
-@media (max-width: 750px) {
-  .con div:nth-child(6) {
-    height: 30px;
-  }
-  #btn-con button {
-    padding: 0;
-    font-size: 13px;
-    border: 1px solid teal;
-    text-align: center;
-    width: 35%;
-  }
-}
+
 .con a[target="_blank"] {
   display: block;
   color: teal;
@@ -698,6 +478,7 @@ p::first-letter {
   border-radius: 20px;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
   /* height: 40rem; */
+  height: auto;
   width: 80%;
   margin: auto;
 }
@@ -719,9 +500,9 @@ p::first-letter {
   text-transform: capitalize;
   font-size: 3.5rem;
 }
-.wraphead {
+/* .wraphead {
   white-space: nowrap;
-}
+} */
 .feature > p {
   text-transform: capitalize;
   border: 2px solid teal;
@@ -790,7 +571,8 @@ p::first-letter {
   grid-template-columns: auto auto;
   grid-column-gap: 2rem;
   grid-row-gap: 3rem; */
-  width: 100%;
+  width: 30%;
+  margin: auto;
 }
 .cond h2 {
   font-size: 2.5rem;
@@ -798,133 +580,6 @@ p::first-letter {
 .feature > p:hover {
   background-color: teal;
   color: white;
-}
-@media (max-width: 750px) {
-  .cond {
-    width: 100%;
-    /* margin: auto; */
-    height: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  .cond > div {
-    width: 80%;
-    margin: auto;
-  }
-  .con-text {
-    position: relative;
-    /* display: flex; */
-    /* flex-direction: column; */
-  }
-  .con a {
-    /* position: fixed;
-    bottom: 0; */
-  }
-  .con a[target="_blank"] {
-    /* align-self: flex-end; */
-    /* display: block; */
-  }
-}
-@media (max-width: 750px) {
-  .feature h1 {
-    font-size: 15px;
-  }
-  /* .feature p {
-    font-size: 13px;
-    width: 30%;
-    border: 1px solid teal;
-    padding: 4px;
-  } */
-  .feature {
-    height: auto;
-    width: 100%;
-  }
-
-  .cond img {
-    width: 100%;
-  }
-  .cond a[target="_blank"] {
-    padding: 2px;
-    width: 90%;
-    border: 1px solid teal;
-    box-shadow: 2px 2px 4px rgba(0, 128, 128, 0.4);
-    color: teal;
-    border-radius: 5px;
-    margin: auto;
-    font-size: 10px;
-    /* margin-bottom: -40%; */
-  }
-}
-@media (max-width: 750px) {
-  .con {
-    grid-template-columns: auto auto;
-    grid-column-gap: 5px;
-    grid-row-gap: 10px;
-    margin: 5%;
-  }
-  .con a[target="_blank"] {
-    padding: 2px;
-    width: 90%;
-    border: 1px solid teal;
-    box-shadow: 2px 2px 4px rgba(0, 128, 128, 0.4);
-    color: teal;
-    border-radius: 5px;
-    margin: auto;
-    font-size: 10px;
-    /* margin-bottom: -40%; */
-  }
-  .con-text a {
-    font-size: 1.2rem;
-  }
-  /* .contact-body p,
-  i,
-  a {
-    font-size: 1.2rem;
-  } */
-  .con h2 {
-    font-size: 1.2rem;
-    white-space: wrap;
-  }
-  /* .con p {
-    font-size: 1rem;
-  } */
-  .image-con {
-    padding: 5px;
-  }
-
-  .con > div > div {
-    height: 50%;
-  }
-  .con > div {
-    border-radius: 5px;
-    box-shadow: non;
-  }
-  .con > div:nth-child(-n + 2) {
-    /* height: 20rem; */
-  }
-  .con > div:nth-child(3),
-  .con > div:nth-child(4),
-  .con > div:nth-child(5) {
-    /* height: 30rem; */
-    /* height: auto; */
-  }
-  /* .image-con.hide {
-    height: 50%;
-  } */
-  /* .image-con.hide img {
-    height: 100%;
-  } */
-  .paratext {
-    word-spacing: normal;
-  }
-  .hide {
-    height: 50%;
-  }
-  .hide img {
-    height: 100%;
-  }
 }
 
 .contact-head {
@@ -1002,54 +657,7 @@ form button:hover {
 form input::placeholder {
   text-transform: capitalize;
 }
-@media (max-width: 750px) {
-  .contact-head h2 {
-    font-size: 25px;
-  }
-  .contact-head p {
-    font-size: 15px;
-  }
-  .contact-body {
-    flex-direction: column-reverse;
-    width: 100%;
-    text-align: center;
-  }
-  .contact-body input {
-    width: 90%;
-    margin-bottom: 5px;
-  }
-  .contact-body > div {
-    width: 100%;
-  }
-  .location {
-    justify-content: center;
-  }
-  .contact-body button {
-    margin: 15px auto;
-    width: 90%;
-    padding: 8px;
-  }
-  .contact-body textarea {
-    width: 90%;
-  }
-  .contact-body div:nth-child(1) {
-    font-size: 13px;
-  }
-  .contact-body a {
-    text-decoration: none;
-    color: teal;
-  }
-  form button {
-    border: 1px solid teal;
-    background-color: white;
-    color: teal;
-    transition: 0.5s ease-in-out;
-  }
-  form button:hover {
-    background-color: teal;
-    color: white;
-  }
-}
+
 footer {
   background-color: black;
   padding: 30px 0;
@@ -1069,15 +677,4 @@ footer div:nth-child(2) {
 }
 .ficons a {
   color: white;
-}
-@media (max-width: 750px) {
-  footer h2 {
-    font-size: 10px;
-  }
-  footer a {
-    color: white;
-  }
-  .ficons {
-    width: 70%;
-  }
 }
