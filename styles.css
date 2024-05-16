@@ -149,7 +149,7 @@ h3 {
   }
   .dropdown-content ul {
     background-color: teal;
-    width: 7rem;
+    width: 10rem;
     text-transform: capitalize;
   }
   .dropdown-content li {
@@ -436,7 +436,20 @@ p::first-letter {
 .certify {
   height: 20rem;
   background-color: #e1f6ff;
-  padding: 0.2rem 0;
+  padding: 1rem 0;
+  height: auto;
+}
+.cert-img {
+  display: flex;
+  width: 90%;
+  margin: 1rem auto;
+  gap: 2rem;
+  justify-content: center;
+}
+.cert-img img {
+  width: 50%;
+  height: 50rem;
+  object-fit: contain;
 }
 .certify h1 {
   text-align: center;
@@ -591,11 +604,13 @@ p::first-letter {
   }
 }
 .con {
-  margin: 5% 10%;
+  /* margin: 5% 10%;
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 2rem;
-  grid-row-gap: 3rem;
+  grid-row-gap: 3rem; */
+  display: flex;
+  flex-direction: column;
 }
 .con div:nth-child(6) {
   background-color: transparent;
