@@ -697,7 +697,7 @@ p::first-letter {
   background-color: white;
   border-radius: 20px;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-  height: 40rem;
+  /* height: 40rem; */
   width: 80%;
   margin: auto;
 }
@@ -854,17 +854,8 @@ p::first-letter {
     border-radius: 5px;
     margin: auto;
     font-size: 10px;
-    margin-bottom: -40%;
+    /* margin-bottom: -40%; */
   }
-  /* .cond h2 {
-    font-size: 1.3rem;
-  }
-  .cond p {
-    font-size: 1rem;
-  }
-  .cond>div{
-    height: auto;
-  } */
 }
 @media (max-width: 750px) {
   .con {
@@ -882,7 +873,7 @@ p::first-letter {
     border-radius: 5px;
     margin: auto;
     font-size: 10px;
-    margin-bottom: -40%;
+    /* margin-bottom: -40%; */
   }
   .con-text a {
     font-size: 1.2rem;
@@ -896,9 +887,9 @@ p::first-letter {
     font-size: 1.2rem;
     white-space: wrap;
   }
-  .con p {
+  /* .con p {
     font-size: 1rem;
-  }
+  } */
   .image-con {
     padding: 5px;
   }
@@ -911,7 +902,7 @@ p::first-letter {
     box-shadow: non;
   }
   .con > div:nth-child(-n + 2) {
-    height: 20rem;
+    /* height: 20rem; */
   }
   .con > div:nth-child(3),
   .con > div:nth-child(4),
