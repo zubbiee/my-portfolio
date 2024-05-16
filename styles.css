@@ -135,7 +135,7 @@ h3 {
     display: none;
     position: absolute;
     top: 100%;
-    right: 55px;
+    right: 60px;
     font-size: 15px;
     color: white;
   }
@@ -698,6 +698,8 @@ p::first-letter {
   border-radius: 20px;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
   height: 40rem;
+  width: 80%;
+  margin: auto;
 }
 .con p {
   font-size: 1.6rem;
@@ -734,9 +736,7 @@ p::first-letter {
 .paratext {
   word-spacing: -0.1em;
 }
-.cond {
-  width: 30%;
-}
+
 .cond img {
   transition: 0.5s ease-in-out;
   width: 100%;
@@ -785,12 +785,12 @@ p::first-letter {
   color: blue;
 }
 .cond {
-  margin: 5% auto;
-  display: grid;
+  /* margin: 5% auto; */
+  /* display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 2rem;
-  grid-row-gap: 3rem;
-  width: 30%;
+  grid-row-gap: 3rem; */
+  width: 100%;
 }
 .cond h2 {
   font-size: 2.5rem;
@@ -801,9 +801,17 @@ p::first-letter {
 }
 @media (max-width: 750px) {
   .cond {
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    /* margin: auto; */
     height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cond > div {
+    width: 80%;
+    margin: auto;
   }
   .con-text {
     position: relative;
@@ -831,11 +839,9 @@ p::first-letter {
   } */
   .feature {
     height: auto;
+    width: 100%;
   }
-  .cond {
-    margin: auto;
-    width: 80%;
-  }
+
   .cond img {
     width: 100%;
   }
@@ -910,7 +916,8 @@ p::first-letter {
   .con > div:nth-child(3),
   .con > div:nth-child(4),
   .con > div:nth-child(5) {
-    height: 30rem;
+    /* height: 30rem; */
+    /* height: auto; */
   }
   /* .image-con.hide {
     height: 50%;
